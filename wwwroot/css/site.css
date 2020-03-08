@@ -1,0 +1,174 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+.header {
+    background-color: #CC6566;
+}
+
+.post {
+    margin-bottom: 50px
+}
+
+.privacy {
+    color: #cc0033;
+}
+
+    .privacy:hover {
+        color: #990033;
+    }
+
+.welcome {
+    color: #990033;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+.register {
+    margin-top: 50px;
+    font-family: 'Old Standard TT', serif;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.register-bottom {
+    margin-top: 5px;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+}
+
+input[type=email],
+input[type=password],
+input[type=text] {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #efefef;
+    color: #666;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    margin-top: 10px;
+}
+.bt {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color: #E9967A;
+    font-size: 20px;
+    color: white;
+    padding: 15px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+#photo {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:40px;
+}
+.priv {
+    color: black;
+    margin-top: 150px;
+    margin-bottom: auto;
+    font-family: 'Old Standard TT', serif;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.priv-bottom {
+    margin-top: 5px;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+}
+
+#pic {
+    width: 80%;
+    height: 80%; 
+    text-align: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}

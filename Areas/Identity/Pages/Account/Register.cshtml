@@ -1,0 +1,41 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "register";
+}
+
+<center>
+    <div class="col-md-4">
+        <h1 class="register">@ViewData["Title"]</h1>
+        <h4 class="register-bottom">create a new account</h4>
+        <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
+
+            <div asp-validation-summary="All"></div>
+            <div class="form-group">
+                <input asp-for="Input.Email" class="form-control" type="email" placeholder="Email"
+                       onfocus="this.placeholder=''" onblur="this.placeholder='Email'" />
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="Input.Password" class="form-control" type="password" placeholder="Password"
+                       onfocus="this.placeholder=''" onblur="this.placeholder='Password'" />
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="Input.ConfirmPassword" class="form-control" type="password" placeholder="Confirm Password"
+                       onfocus="this.placeholder=''" onblur="this.placeholder='Confirm Password'" />
+                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary bt">Register</button>
+        </form>
+        <div id="photo" style='float:left'>
+            <img src="~/assets/promyk.jpg" />
+        </div>
+    </div>
+</center>
+
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
